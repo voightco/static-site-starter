@@ -1,5 +1,5 @@
 module.exports = function(config) {
-  config.addPassthroughCopy("static");
+  config.addPassthroughCopy("static/img");
   config.addPassthroughCopy("css/style.css");
 
   return {

@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npx eleventy",
+    "build:img": "imagemin --plugin=mozjpeg --plugin=pngquant --plugin=svgo static/img/* --out-dir=_site/static/img/",
     "build:css": " postcss css/base.css -o css/style.css -w",
-    "dev": "npm run build:css & npx eleventy --serve",
+    "dev": "npm run build:css & npx eleventy --serve ",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
@@ -30,6 +31,10 @@
     "@11ty/eleventy": "^0.8.3",
     "autoprefixer": "^9.5.1",
     "cssnano": "^4.1.10",
+    "imagemin-cli": "^4.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-svgo": "^7.0.0",
     "postcss-cli": "^6.1.2",
     "postcss-font-magician": "^2.2.1",
     "postcss-import": "^12.0.1",
