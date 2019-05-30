@@ -12,6 +12,7 @@ Opinionated boilerplate that can be used to start a new static site project. It'
 * Uses [`11ty`][11ty] as a static site generator which compiles [`nunjucks`][nunjucks] templates
 * Compiles SCSS [(`postcss`)][postcss], minifies [(`cssnano`)][cssnano] & prefixes [(`autoprefixer`)][cssnano]
 * Linting with [`Stylelint`][stylelint] and browser scope [`browserslist`][browserslist]
+* Minifies images using [`imagemin`](imagemin) and several [`plugins`][imagemin-plugins]
 * Easily deployed to [`Netlify`][netlify]
 
 
@@ -40,3 +41,5 @@ to start the live-reloadzz on a local development server.
 [stylelint]: https://stylelint.io/
 [browserslist]: https://github.com/browserslist/browserslist
 [netlify]: https://www.netlify.com/
+[imagemin]: https://github.com/imagemin/imagemin
+[imagemin-plugins]: https://web.dev/use-imagemin-to-compress-images#plugins
