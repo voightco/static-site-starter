@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/dandevri/static-site-starter#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.8.3",
+    "postcss-cli": "^6.1.2"
   }
 }
