@@ -33,6 +33,10 @@ npm run dev
 
 to start the live-reloadzz on a local development server.
 
+## License
+
+[MIT][license] © [Danny de Vries][author]
+
 [11ty]: https://www.11ty.io/]
 [postcss]: https://postcss.org/
 [cssnano]: https://cssnano.co/
@@ -43,3 +47,5 @@ to start the live-reloadzz on a local development server.
 [netlify]: https://www.netlify.com/
 [imagemin]: https://github.com/imagemin/imagemin
 [imagemin-plugins]: https://web.dev/use-imagemin-to-compress-images#plugins
+[author]: https://github.com/dandevri
+[license]: license
