@@ -10,14 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/dandevri/static-site-starter.git"
   },
-  "keywords": ["static-site", "boilerplate"],
+  "keywords": [
+    "static-site",
+    "boilerplate"
+  ],
   "author": "Danny de Vries <hi@dandevri.es> (https://dandevri.es)",
   "contributors": [
     "Danny de Vries <hi@dandevri.es> (https://dandevri.es)"
-],
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dandevri/static-site-starter/issues"
   },
-  "homepage": "https://github.com/dandevri/static-site-starter#readme"
+  "homepage": "https://github.com/dandevri/static-site-starter#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
 }
