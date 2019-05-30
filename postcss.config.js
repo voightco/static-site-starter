@@ -6,6 +6,7 @@ module.exports = {
     require('postcss-font-magician')({
       display: 'swap'
     }),
-    require('autoprefixer')
+    require('autoprefixer'),
+    require('cssnano'),
   ]
 }
