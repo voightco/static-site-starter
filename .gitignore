@@ -8,5 +8,8 @@ logs
 # Dependency directories
 node_modules/
 
+# Build
+_site
+
 # environment variables file
 .env
