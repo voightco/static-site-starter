@@ -1,0 +1,12 @@
+@define-mixin hover-link {
+  &:hover,
+  &:focus {
+    color: var(--white);
+    box-shadow: 0 -30px 0 0 #222 inset;
+  }
+}
+
+p a {
+  box-shadow: 0 -1px 0 0 #222 inset;
+  @mixin hover-link;
+}

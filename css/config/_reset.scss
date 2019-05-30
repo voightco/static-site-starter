@@ -1,3 +1,7 @@
 ul {
   @mixin reset-list;
 }
+
+a {
+  @mixin reset-link;
+}
