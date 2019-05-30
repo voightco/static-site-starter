@@ -30,6 +30,7 @@
     "@11ty/eleventy": "^0.8.3",
     "autoprefixer": "^9.5.1",
     "postcss-cli": "^6.1.2",
+    "postcss-font-magician": "^2.2.1",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.1.2",
     "postcss-scss": "^2.0.0",
