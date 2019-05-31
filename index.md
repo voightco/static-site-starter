@@ -1,5 +1,6 @@
 ---
-layout: layouts/base
+layout: layouts/default
+title: Hello World
 ---
 
 ![Logo](/static/img/logo.svg)
@@ -16,7 +17,6 @@ I've seen things you people wouldn't believe. Attack ships on fire off the shoul
 * Replicant
 
 ![Street photography](/static/img/unsplash.jpg)
-![Street photography style](/static/img/unsplash-1.jpg)
 
 ### Heading 3
 I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. [Inline link](#) I watched c-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain. Time to die.

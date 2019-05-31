@@ -7,3 +7,4 @@
 @import 'config/_layout.scss';
 
 /* Components */
+@import 'components/header.scss';
