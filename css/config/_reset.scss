@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 ul {
   @mixin reset-list;
 }
