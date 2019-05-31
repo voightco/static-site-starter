@@ -49,3 +49,5 @@ to start the live-reloadzz on a local development server.
 [imagemin-plugins]: https://web.dev/use-imagemin-to-compress-images#plugins
 [author]: https://github.com/dandevri
 [license]: license
+
+[image]: https://images.guide/

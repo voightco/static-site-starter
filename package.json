@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npx eleventy",
-    "build:img": "imagemin --plugin=mozjpeg --plugin=pngquant --plugin=svgo static/img/* --out-dir=_site/static/img/",
+    "build:webp": "imagemin --plugin=webp static/img/* --out-dir=_site/static/img/",
+    "build:img": "imagemin --plugin=mozjpeg --plugin=pngquant --plugin=svgo static/img/* --out-dir=_site/static/img/ & npm run build:webp",
     "build:css": " postcss css/base.css -o css/style.css -w",
     "dev": "npm run build:css & npx eleventy --serve ",
     "debug": "DEBUG=* npx eleventy"
@@ -35,6 +36,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
     "imagemin-svgo": "^7.0.0",
+    "imagemin-webp": "^5.1.0",
     "postcss-cli": "^6.1.2",
     "postcss-font-magician": "^2.2.1",
     "postcss-import": "^12.0.1",
