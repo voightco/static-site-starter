@@ -14,10 +14,12 @@ Opinionated boilerplate that can be used to start a new static site project. It'
 * Minifies images using [`imagemin`](imagemin) and several [`plugins`][imagemin-plugins]
 * Easily deployed to [`Netlify`][netlify]
 
-## Pages 📄
+## Components ⚙️
 * [Components](/components)
-* [Post](/post)
-* [Overview](/overview)
+
+## Templates 📄
+* [Blog - Overview](/blog)
+* [Blog - Detail](/blog/first-post)
 
 ## License
 
