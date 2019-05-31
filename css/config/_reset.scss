@@ -11,10 +11,6 @@ figure {
   margin: 0;
 }
 
-ul {
-  @mixin reset-list;
-}
-
 a {
   @mixin reset-link;
 }
