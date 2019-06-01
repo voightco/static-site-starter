@@ -52,5 +52,8 @@
     "rules": {
       "at-rule-no-unknown": null
     }
+  },
+  "dependencies": {
+    "luxon": "^1.15.0"
   }
 }
