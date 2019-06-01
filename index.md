@@ -15,7 +15,7 @@ Opinionated boilerplate that can be used to start a new static site project. It'
 * Easily deployed to [`Netlify`][netlify]
 
 ## Components ⚙️
-* [Components](/components)
+* [Overview](/components)
 
 ## Templates 📄
 * [Blog - Overview](/blog)

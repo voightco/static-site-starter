@@ -1,6 +1,7 @@
 {
   "title": "Static Site Starter",
   "author": "Danny de Vries",
+  "mail": "hi@dandevri.es",
   "url": "https://example.com/",
   "description": "A boilerplate for building static websites",
   "theme": "#222",
