@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npx eleventy",
     "build:js": "uglifyjs static/js/script.js -c -o _site/static/js/script.js",
+    "build:js2": "rollup static/js/script.js --file _site/static/js/bundle.js --format iife",
     "build:webp": "imagemin --plugin=webp static/img/* --out-dir=_site/static/img/",
     "build:img": "imagemin --plugin=mozjpeg --plugin=pngquant --plugin=svgo static/img/* --out-dir=_site/static/img/ & npm run build:webp",
     "build:css": " postcss css/base.css -o css/style.css -w",
@@ -48,6 +49,7 @@
     "postcss-normalize": "^8.0.0",
     "postcss-scss": "^2.0.0",
     "postcss-simple-vars": "^5.0.2",
+    "rollup": "^1.16.7",
     "stylelint-config-standard": "^18.3.0",
     "uglify-js": "^3.6.0"
   },
