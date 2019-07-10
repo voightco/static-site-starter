@@ -10,6 +10,11 @@ When contributing to this repository, please first discuss the change you wish t
 2. Ensure your work is thoroughly tested, to the best of your abilities
 3. You may merge the Pull Request in once you have the sign-off from a maintainer
 
+## Roadmap
+
+This project has a [roadmap][map].  All implemented features are ported over to either a [`defaults`][defaults] page or [`features`][features] subsection inside the Wiki. This project uses [SemVer][semver] [`releases`][releases] with small changelogs to keep track of which features are added.
+
+
 ## Naming Conventions
 
 ### Branches
@@ -55,3 +60,8 @@ This projects follow [The Seven Rules of writing a commit message][rules] by [Ch
 [coc]: /code_of_conduct.md
 [rules]: https://chris.beams.io/posts/git-commit/#seven-rules
 [chris]: https://chris.beams.io/
+[map]: https://github.com/dandevri/static-site-starter/wiki/roadmap
+[defaults]: https://github.com/dandevri/static-site-starter/wiki/defaults
+[features]: https://github.com/dandevri/static-site-starter/wiki/features
+[releases]: https://github.com/dandevri/static-site-starter/releases
+[semver]: https://semver.org/
