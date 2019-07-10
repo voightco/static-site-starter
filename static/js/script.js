@@ -1,1 +1,5 @@
-console.log('%c Computer says no', 'background: black; color: white; display: block; font-size: 5em;');
+import { cube } from './components/component-1.js';
+import { foo } from './components/component-2.js';
+
+console.log(cube(3));
+console.log(foo);
