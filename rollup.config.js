@@ -1,4 +1,5 @@
 import { terser } from "rollup-plugin-terser";
+import resolve from 'rollup-plugin-node-resolve';
 
 module.exports = {
   input: 'static/js/script.js',
@@ -8,5 +9,6 @@ module.exports = {
   },
   plugins: [
     terser(),
+    resolve(),
   ]
 };
