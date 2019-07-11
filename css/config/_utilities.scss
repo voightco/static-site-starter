@@ -8,3 +8,12 @@
   color: inherit;
   text-decoration: none;
 }
+
+@define-mixin reduced-motion {
+  @media screen and (prefers-reduced-motion: reduce), (update: slow) {
+    * {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
+}

@@ -10,5 +10,6 @@
 @import 'components/header.scss';
 @import 'components/nav.scss';
 @import 'components/button.scss';
+@import 'components/image-motion.scss';
 
 @import-normalize;
